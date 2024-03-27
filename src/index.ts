@@ -1,7 +1,9 @@
-import { greetUser } from '$utils/greet';
+import * as uData from '$utils/userData';
 
 window.Webflow ||= [];
 window.Webflow.push(() => {
-  const name = 'John Doe';
-  greetUser(name);
+  const uEmail = document.querySelector('userdata')?.getAttribute('uemail');
+  if (!uEmail) return;
+  const data = uData.retrieveData('oocUser', uEmail);
+  console.log(data);
 });

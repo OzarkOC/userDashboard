@@ -1,7 +1,7 @@
 {
-  "name": "@finsweet/developer-starter",
+  "name": "userDash",
   "version": "0.0.0",
-  "description": "Developer starter template for Finsweet projects.",
+  "description": "OOC userDash",
   "homepage": "https://github.com/finsweet/developer-starter#readme",
   "license": "ISC",
   "keywords": [],
@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/finsweet/developer-starter.git"
+    "url": "git+https://github.com/ozarkOC/userDashboard.git"
   },
   "bugs": {
-    "url": "https://github.com/finsweet/developer-starter/issues"
+    "url": "https://github.com/ozarkOC/userDashboard/issues"
   },
   "type": "module",
   "main": "src/index.ts",
@@ -49,10 +49,27 @@
     "eslint-plugin-prettier": "^5.1.3",
     "eslint-plugin-simple-import-sort": "^12.0.0",
     "prettier": "^3.2.5",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "@parcel/transformer-sass": "^2.12.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "events": "^3.3.0",
+    "os-browserify": "^0.3.0",
+    "parcel": "^2.0.0",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "sass": "^1.26.10",
+    "stream-browserify": "^3.0.0",
+    "string_decoder": "^1.3.0",
+    "vm-browserify": "^1.1.2"
   },
   "dependencies": {
-    "@finsweet/ts-utils": "^0.40.0"
+    "@finsweet/ts-utils": "^0.40.0",
+    "airtable": "^0.12.2",
+    "core-js": "^3.6.5",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.7",
+    "dotenv": "^16.4.5"
   },
   "engines": {
     "pnpm": ">=8"
